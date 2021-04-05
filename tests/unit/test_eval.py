@@ -1,5 +1,5 @@
 from pathlib import Path
-from ocr_eval.eval import eval_txt_file, eval_folder
+from ocr_eval.eval_utils import eval_txt_file, eval_folder
 
 test_path = Path(__file__).resolve().parents[1]
 

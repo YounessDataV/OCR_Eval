@@ -30,5 +30,6 @@ setup(
         "Topic :: Software Development :: Libraries",
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
+    entry_points={"console_scripts": ["ocr_eval=ocr_eval.main:cli"]},
     packages=find_packages(exclude=("example", "app", "data", "docker", "tests")),
 )
