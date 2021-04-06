@@ -6,7 +6,7 @@
 
 +-- truth
 
-"images" contains the image files in png format in the form "sample_name_x.png"
+"images" contains the image files in png format in the form "sample_name_x.(png|jpg|jpeg)"
 
 "truth" contains the ground truth files in .txt format in the form "sample_name_x.txt", should contain the text contained in the image.
 
